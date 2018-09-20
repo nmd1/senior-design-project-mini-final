@@ -1,0 +1,3 @@
+[submodule "legacy/senior-design-mini-project"]
+	path = legacy/senior-design-mini-project
+	url = git@github.com:nmd1/senior-design-mini-project.git
