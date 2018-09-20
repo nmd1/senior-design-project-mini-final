@@ -1,6 +1,6 @@
 # EC463 Senior Design: Software Mini Project 
 # Device Monitor
-## Authors: Rachel Manzelli, Nehemiah Dureus
+## Authors: Rachel Manzelli (Frontend: Authentication, Web App), Nehemiah Dureus (Backend: Database, Number Generator)
 
 ## Description
 Device Monitor is a web application that displays temperature and humidity information of a given device for any number of users.
