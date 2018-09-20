@@ -49,4 +49,4 @@ The infrastructure of the application as represented in this repository is as fo
 ## Integration Between Platforms
 Each of the platforms we used in our implementation (AWS, GCP, Javascript/HTML/CSS...) must interact and communicate in order for our application to be realized. A visualization of this workflow is provided below. 
 
-![Workflow](https://github.com/manzelli/senior-design-mini/blob/master/.resources/workflow.png)
+![Workflow](https://github.com/manzelli/senior-design-mini/blob/master/.resources/workflow.PNG)
