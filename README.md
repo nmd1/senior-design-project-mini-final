@@ -50,3 +50,9 @@ The infrastructure of the application as represented in this repository is as fo
 Each of the platforms we used in our implementation (AWS, GCP, Javascript/HTML/CSS...) must interact and communicate in order for our application to be realized. A visualization of this workflow is provided below. 
 
 ![Workflow](https://github.com/manzelli/senior-design-mini/blob/master/.resources/workflow.PNG)
+
+## Testing & Verification
+To test our application, we had multiple peers sign up for our service. We then verified that data was generated for multiple sensors in MongoDB, and that this data matched the dashboard of the application and the JavaScript output. We also verified that users were able to log in multiple times, and that when they did so, the same data was associated with each user. Additionally, multiple users were logged in at the same time to make sure the web application was able to handle more than one user simultaneously.
+
+## References
+Many references, tutorials, and sources were used in the making of this application. For a complete list, please contact the authors. 
