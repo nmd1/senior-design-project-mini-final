@@ -10,6 +10,14 @@ var userSchema = mongoose.Schema({
     humidity     : [Number],
     temp         : [Number]
   },
+  data1           : {
+    humidity     : [Number],
+    temp         : [Number]
+  },
+  data2           : {
+    humidity     : [Number],
+    temp         : [Number]
+  },
   google           : {
     id           : String,
     token        : String,

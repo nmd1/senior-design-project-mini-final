@@ -57,8 +57,14 @@ module.exports = function(passport) {
             newUser.google.email = profile.emails[0].value; // pull the first email
 
             // generate random data for the user when they sign up (simulation of sensor)
-            newUser.data.humidity = Array.from({length: 7}, () => Math.floor(Math.random() * 100)); // generate random humidity
-            newUser.data.temp     = Array.from({length: 7}, () => Math.floor(Math.random() * 100)); // generate random temp
+            newUser.data.humidity = Array.from({length: 7}, () => Math.floor(Math.random() * 20)); // generate random humidity
+            newUser.data.temp     = Array.from({length: 7}, () => Math.floor(Math.random() * (85 - 65) + 65)); // generate random temp
+
+            newUser.data1.humidity = Array.from({length: 7}, () => Math.floor(Math.random() * 20)); // generate random humidity
+            newUser.data1.temp     = Array.from({length: 7}, () => Math.floor(Math.random() * (85 - 65) + 65)); // generate random temp
+
+            newUser.data2.humidity = Array.from({length: 7}, () => Math.floor(Math.random() * 20)); // generate random humidity
+            newUser.data2.temp     = Array.from({length: 7}, () => Math.floor(Math.random() * (85 - 65) + 65)); // generate random temp
 
             // save the user
             newUser.save(function(err) {
